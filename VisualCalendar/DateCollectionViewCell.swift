@@ -6,7 +6,6 @@
 //  Copyright © 2018 Clifford Fung. All rights reserved.
 //
 
-
 import UIKit
 
 class DateCollectionViewCell: UICollectionViewCell {
@@ -43,4 +42,3 @@ class DateCollectionViewCell: UICollectionViewCell {
     }
     
 }
-

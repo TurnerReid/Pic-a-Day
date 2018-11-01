@@ -5,7 +5,6 @@
 //  Created by Clifford Fung on 2018-10-30.
 //  Copyright © 2018 Clifford Fung. All rights reserved.
 //
-
 import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
@@ -180,6 +179,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         cell.backgroundColor = UIColor.clear
         
         cell.DateLabel.textColor = UIColor.black
+        cell.DateLabel.font = UIFont.boldSystemFont(ofSize: 25)
         
         cell.Circle.isHidden = true
         
@@ -218,5 +218,3 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return cell
     }
 }
-
-
