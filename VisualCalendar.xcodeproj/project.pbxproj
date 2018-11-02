@@ -17,6 +17,7 @@
 		D11F2CAC21894417001C44DA /* VisualCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F2CAB21894417001C44DA /* VisualCalendarUITests.swift */; };
 		D11F2CBA21894558001C44DA /* CalendarVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F2CB921894558001C44DA /* CalendarVars.swift */; };
 		D11F2CBC2189459B001C44DA /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11F2CBB2189459B001C44DA /* DateCollectionViewCell.swift */; };
+		D1BED0F9218BB297000CE229 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BED0F8218BB297000CE229 /* DayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D11F2CAD21894417001C44DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D11F2CB921894558001C44DA /* CalendarVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVars.swift; sourceTree = "<group>"; };
 		D11F2CBB2189459B001C44DA /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		D1BED0F8218BB297000CE229 /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				D11F2C8821894410001C44DA /* AppDelegate.swift */,
 				D11F2C8A21894410001C44DA /* ViewController.swift */,
+				D1BED0F8218BB297000CE229 /* DayViewController.swift */,
 				D11F2CBB2189459B001C44DA /* DateCollectionViewCell.swift */,
 				D11F2CB921894558001C44DA /* CalendarVars.swift */,
 				D11F2C8C21894410001C44DA /* Main.storyboard */,
@@ -270,6 +273,7 @@
 				D11F2C8921894410001C44DA /* AppDelegate.swift in Sources */,
 				D11F2CBA21894558001C44DA /* CalendarVars.swift in Sources */,
 				D11F2CBC2189459B001C44DA /* DateCollectionViewCell.swift in Sources */,
+				D1BED0F9218BB297000CE229 /* DayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

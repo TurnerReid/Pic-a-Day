@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
-    
+    @IBOutlet weak var DateLabel: UILabel!
     @IBOutlet weak var Calendar: UICollectionView!
     @IBOutlet weak var MonthLabel: UILabel!
     
@@ -190,10 +190,13 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         switch Direction {      //the first cells that needs to be hidden (if needed) will be negative or zero so we can hide them
         case 0:
             cell.DateLabel.text = "\(indexPath.row + 1 - NumberOfEmptyBox)"
+            
         case 1:
             cell.DateLabel.text = "\(indexPath.row + 1 - NextNumberOfEmptyBox)"
+            
         case -1:
             cell.DateLabel.text = "\(indexPath.row + 1 - PreviousNumberOfEmptyBox)"
+            
         default:
             fatalError()
         }
@@ -215,6 +218,17 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             cell.DrawCircle()
             
         }
+
         return cell
+    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
+        performSegue(withIdentifier: "DayViewSegue", sender: self)
+   
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let dayController = segue.destination as! DayViewController
+        dayController.myDate = "\(currentMonth) \(year)"
+      //  dayController.myDateNumber =
     }
 }
