@@ -138,6 +138,10 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         //performSegue(withIdentifier: "ImagePreviewSegue", sender: self)
     }
     
+    @IBAction func WeekViewBtn(_ sender: Any) {
+        performSegue(withIdentifier: "WeekViewSegue", sender: self)
+    }
+    
     //Defines the previous button for the previous month in sequence
     @IBAction func Back(_ sender: Any) {
         switch currentMonth {

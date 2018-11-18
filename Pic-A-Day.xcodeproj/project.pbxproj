@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CF417700218FDBA500FEB204 /* Pic_A_DayUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4176FF218FDBA500FEB204 /* Pic_A_DayUnitTests.swift */; };
+		D15CF8BB21A0E28300E52123 /* WeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15CF8BA21A0E28300E52123 /* WeekViewController.swift */; };
 		DC69FD40218900A2008BCF28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69FD3F218900A2008BCF28 /* AppDelegate.swift */; };
 		DC69FD42218900A2008BCF28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69FD41218900A2008BCF28 /* ViewController.swift */; };
 		DC69FD45218900A2008BCF28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC69FD43218900A2008BCF28 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 		CF4176FD218FDBA500FEB204 /* Pic-A-DayUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pic-A-DayUnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4176FF218FDBA500FEB204 /* Pic_A_DayUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pic_A_DayUnitTests.swift; sourceTree = "<group>"; };
 		CF417701218FDBA500FEB204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15CF8BA21A0E28300E52123 /* WeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeekViewController.swift; path = "View Controllers/WeekViewController.swift"; sourceTree = SOURCE_ROOT; };
 		DC69FD3C218900A2008BCF28 /* Pic-A-Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pic-A-Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC69FD3F218900A2008BCF28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC69FD41218900A2008BCF28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				DC69FD41218900A2008BCF28 /* ViewController.swift */,
+				D15CF8BA21A0E28300E52123 /* WeekViewController.swift */,
 				DC69FD5921891374008BCF28 /* PhotoPreviewViewController.swift */,
 				DC96802C218A2F3700F6861C /* ClipboardViewController.swift */,
 				DC952258218F661900CDF279 /* DayViewController.swift */,
@@ -280,6 +283,7 @@
 				DC69FD42218900A2008BCF28 /* ViewController.swift in Sources */,
 				DC69FD6321899807008BCF28 /* GradientView.swift in Sources */,
 				DC69FD40218900A2008BCF28 /* AppDelegate.swift in Sources */,
+				D15CF8BB21A0E28300E52123 /* WeekViewController.swift in Sources */,
 				DC952255218F638700CDF279 /* DateCollectionViewCell.swift in Sources */,
 				DC69FD6E2189AB42008BCF28 /* ClipboardCollectionViewCell.swift in Sources */,
 				DC952257218F65D500CDF279 /* CalendarVars.swift in Sources */,
